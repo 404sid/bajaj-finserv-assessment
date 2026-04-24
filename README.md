@@ -1,5 +1,5 @@
 # 🏆 SRM Quiz Leaderboard System
-**Registration Number:** 2024CS101
+**Registration Number:** RA2311003010935
 
 ## 📖 Overview
 The **SRM Quiz Leaderboard System** is a production-ready backend integration designed to process real-time quiz show events from a validator API. The system fetches paginated event data across a strict 10-poll constraint, intelligently deduplicates overlapping telemetry using a composite key (`roundId + participant`), safely aggregates final scores, and idempotently submits the generated JSON leaderboard payload to the final POST endpoint.
